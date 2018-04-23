@@ -52,3 +52,11 @@
 .introduction .heading .des {
   font-size: 25px;
 }
+
+.section {
+  padding: 100px 0px;
+}
+
+.meImage {
+  max-width: 100%;
+}
