@@ -127,15 +127,15 @@ body {
 
 }
 
-.squreInnerContainer:before{
+.squreInnerContainer:before {
   right: 0px;
 }
 
-.squreInnerContainer:after{
+.squreInnerContainer:after {
   left: 0px;
 }
 
-.squreContent h2{
+.squreContent h2 {
   font-size: 57px;
   margin-bottom: 10px;
   font-weight: 400;
@@ -143,8 +143,20 @@ body {
 
 }
 
-.squreContent h3{
+.squreContent h3 {
   font-size: 13px;
   font-weight: 600;
   margin: 0;
+}
+
+.squreIcon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #2980b9;
+
 }
