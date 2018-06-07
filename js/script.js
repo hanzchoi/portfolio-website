@@ -56,7 +56,7 @@ $(document).ready(function() {
       });
     }
 
-    if(!countUpFinished && window.pageYOffset > skillsTopOffSet - $(window).height() + 200){
+    if(!countUpFinished && window.pageYOffset > statsTopOffSet - $(window).height() + 200){
       $(".counter").each(function(){
         var element = $(this);
         var endVal = parseInt(element.text());
